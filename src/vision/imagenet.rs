@@ -4,6 +4,7 @@ use crate::{kind, Device, Kind, TchError, Tensor};
 use std::io;
 use std::path::Path;
 use std::sync::Mutex;
+use lazy_static::lazy_static;
 
 lazy_static! {
     static ref IMAGENET_MEAN: Mutex<Tensor> =
