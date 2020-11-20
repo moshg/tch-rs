@@ -3,7 +3,7 @@
 //
 // The pre-trained weight files containing the pre-trained weights can be found here:
 // https://github.com/LaurentMazare/ocaml-torch/releases/download/v0.1-unstable/resnet18.ot
-extern crate tch;
+
 use anyhow::{bail, Result};
 use tch::nn::{self, OptimizerConfig};
 use tch::vision::{imagenet, resnet};

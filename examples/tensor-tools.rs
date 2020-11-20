@@ -8,8 +8,6 @@
 //   or
 //     tensor-tools cp src.ot dst.npz
 
-extern crate tch;
-
 use anyhow::{bail, ensure, Result};
 
 pub fn main() -> Result<()> {

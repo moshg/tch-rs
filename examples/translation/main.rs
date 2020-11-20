@@ -10,9 +10,7 @@
    The eng-fra.txt file should be moved in the data directory.
 */
 
-extern crate rand;
 use rand::prelude::*;
-extern crate tch;
 use anyhow::Result;
 use tch::nn::{GRUState, Module, OptimizerConfig, RNN};
 use tch::{nn, Device, Kind, Tensor};

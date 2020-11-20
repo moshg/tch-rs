@@ -1,4 +1,3 @@
-extern crate tch;
 use tch::Tensor;
 
 fn main() {
