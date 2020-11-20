@@ -52,7 +52,6 @@ This crate provides a tensor type which wraps PyTorch tensors. Here is a minimal
 example of how to perform some tensor operations.
 
 ```rust
-extern crate tch;
 use tch::Tensor;
 
 fn main() {
@@ -82,7 +81,6 @@ Then on each step of the training loop:
 
 
 ```rust
-extern crate tch;
 use tch::nn;
 use tch::Tensor;
 
@@ -112,8 +110,6 @@ The `nn` api can be used to create neural network architectures, e.g. the follow
 a simple model with one hidden layer and trains it on the MNIST dataset using the Adam optimizer.
 
 ```rust
-extern crate anyhow;
-extern crate tch;
 use anyhow::Result;
 use tch::{nn, nn::Module, nn::OptimizerConfig, Device};
 
